@@ -1,0 +1,204 @@
+/* headings-paragraphs-emphasis */
+
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  padding-top: 2%;
+  text-align: center;
+}
+
+em {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* intro section */
+
+.navbar {
+  background-color: #fff;
+}
+
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+}
+
+#intro .container-fluid {
+  background: linear-gradient(174deg, rgb(238, 122, 139) 0%, rgb(246, 85, 135) 100%);
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #fff;
+}
+
+#intro .c1 {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+#intro p {
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.3rem;
+}
+
+
+/* about section */
+#about {
+  text-align: center;
+}
+
+#about .fas {
+  padding: 20px;
+  color: #FC4384;
+}
+
+#about .fas:hover {
+  color: #F46C8C;
+}
+
+#about .container {
+  text-align: center;
+  margin: 3%;
+  width: auto;
+  height: auto;
+}
+
+#about p {
+  font-size: 1.2rem;
+}
+
+/* gallery section */
+#gallery {
+  background: linear-gradient(174deg, rgb(238, 122, 139) 0%, rgb(246, 85, 135) 100%);
+  text-align: center;
+  width: 100%;
+  height: 350px;
+}
+
+#gallery h2 {
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+}
+
+#gallery img {
+  padding: 5%;
+  width: 50%;
+}
+
+.gallery-text-1 {
+  width: 10%;
+}
+
+/* skills section */
+#skills {
+  padding: 5%;
+}
+
+#skills h3 {
+  padding-bottom: 3%;
+}
+
+.c2 {
+  text-align: right;
+}
+
+/* contact section */
+#contact {
+  text-align: center;
+  background: linear-gradient(174deg, rgb(238, 122, 139) 0%, rgb(246, 85, 135) 100%);
+}
+
+#contact h2 {
+  color: #fff;
+}
+
+#contact h3 {
+  width: 60%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  position: relative;
+  left: 20%;
+  text-height: 1.5;
+  margin-bottom: 1.5%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.myButton {
+  box-shadow: inset 0px 39px 0px -24px #e67a73;
+  background: linear-gradient(to bottom, #e4685d 5%, #cc3c35 100%);
+  background-color: #e4685d;
+  border-radius: 4px;
+  border: 1px solid #de4c75;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 6px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+  margin-bottom: 2.5%;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #cc3c35 5%, #e4685d 100%);
+  background-color: #cc3c35;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  margin-top: 1.2%;
+}
+
+#footer i {
+  padding: 0 1.5%;
+  color: #FC4384;
+}
+
+/* reponsive css */
+
+@media (max-width: 900px) {
+  h3 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  em {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2.5rem;
+  }
+  #about p {
+    width: 50%
+  }
+}
