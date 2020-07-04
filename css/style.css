@@ -1,17 +1,6 @@
 /* reponsive css */
 
 @media (max-width: 700px) {
-  h3 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 3.5rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
   #about p {
     width: 25%
     position: relative;
