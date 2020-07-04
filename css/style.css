@@ -1,3 +1,64 @@
+/* reponsive css */
+
+@media (max-width: 700px) {
+  h3 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  #about p {
+    width: 25%
+    position: relative;
+    right: 25%;
+    font-size: 2.5rem;
+  }
+  #about h3 {
+    font-size: 3rem;
+  }
+  #about h2 {
+    font-size: 3.5rem;
+  }
+
+#skills {
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 3.5rem;
+}
+#skills h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+#skills .c2 {
+  text-align: center;
+}
+#contact h3{
+  font-size: 1.7rem;
+}
+#contact .myButton {
+  width: 50%;
+  font-size: 1.7rem;
+}
+#footer p {
+  padding: 2.5%;
+  font-size: 1rem;
+}
+.nav-item {
+  font-size: 2rem;
+}
+/* #gallery img {
+  width: 250%;
+} */
+}
+
+
 /* headings-paragraphs-emphasis */
 
 
@@ -83,6 +144,9 @@ p {
 
 #about p {
   font-size: 1.2rem;
+  width: 70%;
+  position: relative;
+  left: 15%
 }
 
 /* gallery section */
@@ -99,8 +163,9 @@ p {
 }
 
 #gallery img {
-  padding: 5%;
-  width: 50%;
+  padding: 1.5%;
+  width: 70%;
+  height: 70%;
 }
 
 .gallery-text-1 {
@@ -158,6 +223,7 @@ p {
   text-decoration: none;
   text-shadow: 0px 1px 0px #b23e35;
   margin-bottom: 2.5%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .myButton:hover {
@@ -177,29 +243,6 @@ p {
 }
 
 #footer i {
-  padding: 0 1.5%;
+  padding: 0 4.5%;
   color: #FC4384;
-}
-
-/* reponsive css */
-
-@media (max-width: 900px) {
-  h3 {
-    font-size: 2.3rem;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  em {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 2.5rem;
-  }
-  #about p {
-    width: 50%
-  }
 }
