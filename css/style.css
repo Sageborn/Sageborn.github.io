@@ -28,6 +28,9 @@
   font-size: 3rem;
   text-align: center;
 }
+  #skills p {
+  font-size: 2rem;
+}
 #skills .c2 {
   text-align: center;
 }
