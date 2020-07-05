@@ -1,6 +1,6 @@
 /* reponsive css */
 
-@media (max-width: 700px) {
+@media screen (max-width: 700px) {
   #about p {
     width: 25%
     position: relative;
